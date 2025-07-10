@@ -1,7 +1,7 @@
 {
   "$schema": "https://atonns.com.br/",
   "theme": "mint",
-  "name": "Kit Inicial Atonns",
+  "name": "Documentação Evolution API",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,45 +11,40 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guias",
+        "tab": "Instância",
         "groups": [
           {
-            "group": "Comece Agora",
+            "group": "Gerenciamento",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essenciais",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "api-reference/instance/create",
+              "api-reference/instance/fetch",
+              "api-reference/instance/restart",
+              "api-reference/instance/delete"
             ]
           }
         ]
       },
       {
-        "tab": "Referência da API",
+        "tab": "Mensagens",
         "groups": [
           {
-            "group": "Documentação da API",
+            "group": "Envio",
             "pages": [
-              "api-reference/introduction"
+              "api-reference/message/send-text",
+              "api-reference/message/send-media",
+              "api-reference/message/send-buttons"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Webhooks",
+        "groups": [
           {
-            "group": "Exemplos de Endpoints",
+            "group": "Integrações",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/webhook/set",
+              "api-reference/webhook/fetch"
             ]
           }
         ]
@@ -58,7 +53,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentação",
+          "anchor": "Site oficial",
           "href": "https://atonns.com.br/",
           "icon": "book-open-cover"
         },
